@@ -1,1 +1,1 @@
-haxelib run flow run web
+-cmd haxelib run flow run web
