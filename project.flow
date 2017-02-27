@@ -1,0 +1,35 @@
+{
+
+  project : {
+    name : 'luxe justTriangles',
+    version : '1.0.0',
+    author : 'Nanjizal',
+
+    app : {
+      name : 'justTrianglesLuxe',
+      package : 'net.nanjizal.justTranglesLuxe'
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*',
+        justTriangles: '*'
+      }
+    },
+
+    files : {
+      assets : 'assets/',
+      index : { path:'custom_index.html => index.html', template:'project', not_listed:true }
+    }
+
+  },
+
+  if:{
+    web:{
+      build:{
+        flags:['-dce full']
+      }
+    }
+  }
+
+}
