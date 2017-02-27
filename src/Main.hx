@@ -89,6 +89,7 @@ class Main extends luxe.Game {
                 primitive_type:PrimitiveType.triangles,
                 batcher: Luxe.renderer.batcher
         });
+        shape.lock = true        
         var tri: Triangle;
         var color: Color;
         var triangles = Triangle.triangles;
