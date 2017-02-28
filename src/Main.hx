@@ -57,7 +57,7 @@ class Main extends luxe.Game {
         var ctx2 = new PathContext( 1, 500, 0, 0 );
         ctx2.lineType = TriangleJoinCurve; // - default
         var p2 = new SvgPath( ctx2 );
-        var c: Int ;
+        var c: Null<Int> ;
         var pos = 0;
         var str = "Luxe";
         var letterPath: String;
